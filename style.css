@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #82ccdd;
+}
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+  padding-top: 8rem;
+}
+
+label {
+  display: block;
+}
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  gap: 10px;
+  font-family: "Roboto";
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+.card-name {
+  display: block;
+  border: 1px solid #e2e6ee;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  width: fill, 300px;
+  padding: 8px 12px;
+}
+
+.label-one {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 9px;
+}
+
+.card-number {
+  display: block;
+  border: 1px solid #e2e6ee;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  width: fill, 300px;
+  padding: 8px 12px;
+}
+.label-two {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 9px;
+}
+
+.exp-date {
+  border: 1px solid #e2e6ee;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  width: fill, 300px;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+.label-three {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 9px;
+  padding-top: 8px;
+}
+
+.cvv-code {
+  border: 1px solid #e2e6ee;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  width: fill, 300px;
+  padding: 8px 12px;
+}
+
+.label-four {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 9px;
+  padding-top: 8px;
+}
+
+.zip-code {
+  display: block;
+  border: 1px solid #e2e6ee;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  width: fill, 300px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+}
+.label-five {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 9px;
+  padding-top: 5px;
+}
+
+.sumbit-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sumbit-btn {
+  background-color: #288fb4;
+  width: fill, 300px;
+  height: 40px;
+  border: 1px solid #288fb4;
+  border-radius: 10px;
+  padding: 12px 56px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+.label-six {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 12px;
+  color: #030102;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
