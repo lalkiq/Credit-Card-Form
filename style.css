@@ -16,24 +16,34 @@ label {
 .form-box {
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   flex-direction: column;
   background-color: #ffffff;
   gap: 10px;
   font-family: "Roboto";
   border: 1px solid #fff;
   border-radius: 20px;
-  padding-top: 10px;
+  padding: 25px;
 }
 
-.card-name {
+.logo {
+  align-self: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #030102;
+}
+
+#card-name {
   display: block;
   border: 1px solid #e2e6ee;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 400;
   height: 40px;
-  width: fill, 300px;
+  width: 100%;
   padding: 8px 12px;
 }
 
@@ -41,31 +51,39 @@ label {
   font-size: 16px;
   font-weight: 400;
   padding-bottom: 9px;
+  text-align: left;
 }
 
-.card-number {
+#card-number {
   display: block;
   border: 1px solid #e2e6ee;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 400;
   height: 40px;
-  width: fill, 300px;
+  width: 100%;
   padding: 8px 12px;
 }
+
+.card-data {
+  display: flex;
+  gap: 20px;
+}
+
 .label-two {
   font-size: 16px;
   font-weight: 400;
   padding-bottom: 9px;
+  text-align: left;
 }
 
-.exp-date {
+#exp-date {
   border: 1px solid #e2e6ee;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 400;
   height: 40px;
-  width: fill, 300px;
+  width: 100%;
   padding: 8px 12px;
   box-sizing: border-box;
 }
@@ -74,15 +92,16 @@ label {
   font-weight: 400;
   padding-bottom: 9px;
   padding-top: 8px;
+  text-align: left;
 }
 
-.cvv-code {
+#cvv-code {
   border: 1px solid #e2e6ee;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 400;
   height: 40px;
-  width: fill, 300px;
+  width: 100%;
   padding: 8px 12px;
 }
 
@@ -91,16 +110,17 @@ label {
   font-weight: 400;
   padding-bottom: 9px;
   padding-top: 8px;
+  text-align: left;
 }
 
-.zip-code {
+#zip-code {
   display: block;
   border: 1px solid #e2e6ee;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 400;
   height: 40px;
-  width: fill, 300px;
+  width: 100%;
   padding: 8px 12px;
   margin-bottom: 10px;
 }
@@ -109,6 +129,7 @@ label {
   font-weight: 400;
   padding-bottom: 9px;
   padding-top: 5px;
+  text-align: left;
 }
 
 .sumbit-button {
@@ -119,7 +140,7 @@ label {
 }
 .sumbit-btn {
   background-color: #288fb4;
-  width: fill, 300px;
+  width: 100%;
   height: 40px;
   border: 1px solid #288fb4;
   border-radius: 10px;
@@ -129,7 +150,7 @@ label {
   font-weight: 400;
   color: #fff;
 }
-.label-six {
+.btn-message {
   font-family: "Roboto";
   font-weight: 300;
   font-size: 12px;
